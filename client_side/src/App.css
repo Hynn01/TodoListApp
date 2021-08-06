@@ -1,0 +1,183 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body > #root > div {
+  height: 100vh;
+}
+
+.container-fluid{
+	height:100% !important;
+}
+
+.page{
+	height:100% !important;
+}
+
+.col-left{
+	background-color:#F3F4F7;
+}
+
+.title{
+	background-color:#DEE4F4;
+  margin:10px 0 10px 0;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.col-border{
+	border:1px solid #E2E3E6;
+}
+
+.col-sm{
+	height:100% !important;
+}
+
+.focus{
+	background-color:#E5E8ED;
+}
+
+.rootpage{
+	background-color:#F3F4F7;
+	height:100%;
+	margin:0 !important;
+	overflow: hidden;
+	display:flex;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.nomargin{
+	clear:both;
+}
+
+.center{
+	margin:auto;
+	justify-content: center;
+	align-items:flex-end;
+	text-align:center;
+}
+
+.loginBox{
+  border:1px black solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin:10px;
+  background-color: #DEE4F4;
+}
+
+.loginTitle{
+  margin-bottom:10px;
+}
+
+.username{
+  margin:10px 0 10px 0;
+  /* font-weight: 700; */
+  
+  font-size: 18px;
+}
+
+.list{
+  background-color: transparent !important;
+  border-width: 0 !important;
+  padding: 5px !important;
+}
+
+.focusedlist{
+  background-color: #DEE4F4 !important;
+  border-width: 0 !important;
+  padding: 5px !important;
+}
+
+.input{
+  margin:10px 0 10px 0;
+}
+
+.itemTitle{
+  font-weight: 700;
+  margin:10px 0 10px 0;
+  padding: 5px;
+}
+
+.checkbox{
+  margin:10px;
+}
+
+.itemText{
+  margin:5px;
+}
+
+.listIcon{
+  margin-right:10px;
+}
+
+.detailBox{
+  border:1px black solid;
+  border-radius: 10px;
+  padding: 20px;
+  margin:10px;
+  background-color: #DEE4F4;
+  height:500px;
+  width:500px;
+}
+
+.descriptionBox{
+  border:1px black solid;
+  border-radius: 10px;
+  margin:10px 0 10px 0;
+  height: 250px;
+  width:100%;
+}
+
+.delete{
+  line-height: 1 !important;
+  padding: .2rem .2rem !important;
+}
+
+.itemDoneText{
+  margin:5px;
+  color:#ABABAB;  
+  text-decoration: line-through;
+} 
